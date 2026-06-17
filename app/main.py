@@ -6,7 +6,7 @@ from fastapi import FastAPI
 
 from app.login import router as login_router
 
-VERSION = "v1.0"
+VERSION = "v3.0"
 
 app = FastAPI(title="hello")
 app.include_router(login_router)
